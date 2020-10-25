@@ -188,7 +188,7 @@ $(document).ready(function(){
   var searchField = $('#formulario').val();
   var expression = new RegExp(searchField, "i");
   $.getJSON('infopaso.json', function(data) {
-   $.each(data, function(key, value){
+   $.each(data, function(keyup, value){
     if (value.comuna.search(expression) != -1)
     {
      $('#resultado').append('<div class="cardPlace"><div class="grid-container"><div class="infoCardPlace"><p class="dataName">'+value.comuna+'</p><p class="dataSeg">Estado de '+value.estado+'</p></div><div class="stateCardPlace"><img src="'+value.paso+'" class="dataState" alt="estado"></div></div></div>');
