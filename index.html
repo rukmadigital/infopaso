@@ -182,13 +182,13 @@
 <script>
 $(document).ready(function(){
  $.ajaxSetup({ cache: false });
- $('#formulario').keyup(function(){
+ $('#formulario').keydown(function(){
 
   $('#resultado').html('');
   var searchField = $('#formulario').val();
   var expression = new RegExp(searchField, "i");
   $.getJSON('infopaso.json', function(data) {
-   $.each(data, function(keyup, value){
+   $.each(data, function(key, value){
     if (value.comuna.search(expression) != -1)
     {
      $('#resultado').append('<div class="cardPlace"><div class="grid-container"><div class="infoCardPlace"><p class="dataName">'+value.comuna+'</p><p class="dataSeg">Estado de '+value.estado+'</p></div><div class="stateCardPlace"><img src="'+value.paso+'" class="dataState" alt="estado"></div></div></div>');
