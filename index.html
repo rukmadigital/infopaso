@@ -104,7 +104,7 @@
         <div class="buscador">
           <div class="d-flex justify-content-center h-100">
             <div class="searchbar">
-              <input class="search_input" type="text" id="formulario" name="search" placeholder="Busca tu comuna">
+              <input class="search_input" type="text" id="search" name="search" placeholder="Busca tu comuna">
               <button id="boton" class="search_icon"><i class="fas fa-search"></i></button>
             </div>
           </div>
@@ -181,42 +181,43 @@
 
 <script>
 $(document).ready(function(){
- $.ajaxSetup({ cache: false });
- $('#formulario').keydown(function(){
+  $.ajaxSetup({ cache: false });
+  $('#search').keydown(function(){
 
   $('#resultado').html('');
-  var searchField = $('#formulario').val();
+  
+  var searchField = $('#search').val();
   var expression = new RegExp(searchField, "i");
   $.getJSON('infopaso.json', function(data) {
-   $.each(data, function(key, value){
-    if (value.comuna.search(expression) != -1)
-    {
-     $('#resultado').append('<div class="cardPlace"><div class="grid-container"><div class="infoCardPlace"><p class="dataName">'+value.comuna+'</p><p class="dataSeg">Estado de '+value.estado+'</p></div><div class="stateCardPlace"><img src="'+value.paso+'" class="dataState" alt="estado"></div></div></div>');
-    }
-   });
+    $.each(data, function(key, value){
+      if (value.comuna.search(expression) != -1)
+      {
+        $('#resultado').append('<div class="cardPlace"><div class="grid-container"><div class="infoCardPlace"><p class="dataName">'+value.comuna+'</p><p class="dataSeg">Estado de '+value.estado+'</p></div><div class="stateCardPlace"><img src="'+value.paso+'" class="dataState" alt="estado"></div></div></div>');
+      }
+    });
   
-   if(resultado.innerHTML === ''){
+    if(resultado.innerHTML === ''){
       resultado.innerHTML += `
-      <div class="emptyState">
-        <div class="grid-container">
-          <div class="iconBlankState">
-            <img src="img/emptystate/iconBlankState2.svg" alt="">
-          </div>
-          <div class="infoBlankState">
-            <p class="dataSeg" style="text-align:center">
-              Mmm, ¿estará bien escrito? no lo encontramos ...
-            </p>
+        <div class="emptyState">
+          <div class="grid-container">
+            <div class="iconBlankState">
+              <img src="img/emptystate/iconBlankState2.svg" alt="">
+            </div>
+            <div class="infoBlankState">
+              <p class="dataSeg" style="text-align:center">
+                Mmm, ¿estará bien escrito? no lo encontramos ...
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      `
-    }
-  });
+        `
+      }
+    });
  });
  
  $('#resultado').on('click', 'li', function() {
   var click_text = $(this).text().split('|');
-  $('#formulario').val($.trim(click_text[0]));
+  $('#search').val($.trim(click_text[0]));
   $("#resultado").html('');
  });
 });
