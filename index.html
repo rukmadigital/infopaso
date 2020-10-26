@@ -126,10 +126,10 @@
         </div>
         <div class="version">
           <p class="actualizacion text-center">
-            Información actualizada el 24 de oct de 2020
+            Información actualizada el 26 de oct de 2020
           </p>
           <p class="text-center">
-            V.1.1.1
+            V.1.1.2
           </p>
         </div>
 
@@ -177,26 +177,22 @@
     <script src="js/main.js"></script>
 
 
+    <script>
+        $(document).ready(function(){
+         $.ajaxSetup({ cache: false });
+         $('#search').keydown(function(){
+          $('#resultado').html('');
+
+          var searchField = $('#search').val();
+          var expression = new RegExp(searchField, "i");
+          $.getJSON('infopaso.json', function(data) {
+           $.each(data, function(key, value){
+            if (value.comuna.search(expression) != -1)
+            {$('#resultado').append('<div class="cardPlace"><div class="grid-container"><div class="infoCardPlace"><p class="dataName">'+value.comuna+'</p><p class="dataSeg">Estado de '+value.estado+'</p></div><div class="stateCardPlace"><img src="'+value.paso+'" class="dataState" alt="estado"></div></div></div>');}
+           });  
 
 
-<script>
-$(document).ready(function(){
-  $.ajaxSetup({ cache: false });
-  $('#search').keydown(function(){
-
-  $('#resultado').html('');
-  
-  var searchField = $('#search').val();
-  var expression = new RegExp(searchField, "i");
-  $.getJSON('infopaso.json', function(data) {
-    $.each(data, function(key, value){
-      if (value.comuna.search(expression) != -1)
-      {
-        $('#resultado').append('<div class="cardPlace"><div class="grid-container"><div class="infoCardPlace"><p class="dataName">'+value.comuna+'</p><p class="dataSeg">Estado de '+value.estado+'</p></div><div class="stateCardPlace"><img src="'+value.paso+'" class="dataState" alt="estado"></div></div></div>');
-      }
-    });
-  
-    if(resultado.innerHTML === ''){
+ if(resultado.innerHTML === ''){
       resultado.innerHTML += `
         <div class="emptyState">
           <div class="grid-container">
@@ -214,14 +210,16 @@ $(document).ready(function(){
       }
     });
  });
- 
- $('#resultado').on('click', 'li', function() {
-  var click_text = $(this).text().split('|');
-  $('#search').val($.trim(click_text[0]));
-  $("#resultado").html('');
- });
-});
-</script>
+         
+         
+         $('#resultado').on('click', 'li', function() {
+          var click_text = $(this).text().split('|');
+          $('#search').val($.trim(click_text[0]));
+          $("#resultado").html('');
+         });
+        });
+    </script>
+
 
 
 
