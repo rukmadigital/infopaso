@@ -1,0 +1,129 @@
+.grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 1fr 1fr 0.3fr;
+    gap: 0px 0px;
+    justify-items: self-start;
+
+    grid-template-areas:
+        "interiorA"
+        "interiorB"
+        "interiorC"
+        "interiorD";
+
+    p {
+        text-align: center;
+        color: $col2;
+        font-weight: normal;
+        font-size: 1em;
+        padding: 0px;
+        margin: 1em 0em;
+        letter-spacing: 0.1em;
+    }
+
+    .link {
+        font-size: 0.8em;
+        letter-spacing: 0.1em;
+        color: $col4;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .actualizacion {
+        padding: 1em;
+        background-color: $col8;
+        border-radius: 5em;
+        font-weight: bold;
+        color: $col2;
+        font-size: 0.6em;
+    }
+
+    .version {
+        color: $col5;
+        font-weight: bold;
+        font-size: 0.6em;
+        padding: 0px;
+        margin: 0px;
+        letter-spacing: 0.1em;
+    }
+
+    .codito {
+        text-align: center;
+        width: 150px;
+        height: auto;
+    }
+
+    .nCodito {
+        color: $col4;
+        font-weight: bold;
+    }
+
+    .infoCodito {
+        font-size: 0.7em;
+    }
+
+    .email {
+        font-size: 0.7em;
+
+    }
+}
+
+
+
+.alto {
+    height: 80vh;
+    padding: 20px 0px;
+    //background-color: green;
+
+}
+
+.interiorA {
+    grid-area: interiorA;
+    align-self: flex-start;
+    justify-self: center;
+
+    img {
+        width: 180px;
+    }
+}
+
+.interiorB {
+    grid-area: interiorB;
+    align-self: center;
+    justify-self: center;
+}
+
+.interiorC {
+    grid-area: interiorC;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.interiorD {
+    grid-area: interiorD;
+    align-self: flex-end;
+    justify-self: center;
+}
+
+
+
+.section {
+    //border: 1px solid red;
+
+}
+
+.section_derecha {
+
+    &:active {
+        right: 0%;
+    }
+}
+
+.section_izquierda {
+
+    &:active {
+        left: 0%;
+    }
+}

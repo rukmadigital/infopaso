@@ -1,0 +1,29 @@
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: 0.5fr 0px 1fr 0px 1fr 0px 0.5fr;
+  grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
+  gap: 0px 0px;
+  grid-template-areas: "interiorA" "interiorB" "interiorC" "interiorD"; }
+
+.interiorD {
+  -ms-grid-row: 7;
+  -ms-grid-column: 1;
+  grid-area: interiorD; }
+
+.interiorA {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: interiorA; }
+
+.interiorB {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: interiorB; }
+
+.interiorC {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: interiorC; }

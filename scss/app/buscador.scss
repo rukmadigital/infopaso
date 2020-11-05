@@ -1,39 +1,39 @@
 .buscador {
     .searchbar {
-        margin-top: 1.5em;
-        margin-bottom: 1.5em;
+        font-size: 1.15em;
+        margin-top: 1em;
+        margin-bottom: 1em;
         height: 60px;
-        background-color: $menu;
+        background-color: $col8;
         border-radius: 30px;
         padding: 10px;
 
         ::-webkit-input-placeholder {
-            color: $color-4;
-            font-weight: normal;
+            color: $col1;
+            font-weight: bold;
         }
 
         :-moz-placeholder {
             /* Firefox 18- */
-            color: $color-4;
-            font-weight: normal;
+            color: $col1;
+            font-weight: bold;
         }
 
         ::-moz-placeholder {
             /* Firefox 19+ */
-            color: $color-4;
-            font-weight: normal;
+            color: $col1;
+            font-weight: bold;
         }
 
         :-ms-input-placeholder {
-            color: $color-4;
-            font-weight: normal;
+            color: $col1;
+            font-weight: bold;
         }
     }
 
     .search_input {
-
-
-        color: $color-2;
+        color: $col1;
+        font-weight: bold;
         border: 0;
         outline: 0;
         background: none;
@@ -46,27 +46,22 @@
     .search_input {
         padding: 0 10px;
         width: 80%;
-        caret-color: $color-1;
+        caret-color: $col1;
         transition: width 0.4s linear;
         font-weight: bold;
-
-    }
-
-    .searchbar:hover>.search_icon {
-        background: white;
-        color: $color-1;
     }
 
     .search_icon {
+        background-color: transparent;
         border: 0px solid white;
         height: 40px;
         width: 40px;
-        float: right;
+        float: left;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 50%;
-        color: $color-1;
+        color: $col1;
         text-decoration: none;
     }
 }

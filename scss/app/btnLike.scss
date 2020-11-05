@@ -8,15 +8,15 @@
     margin: 0 auto;
     text-align: center;
     background: url('../img/sprite/codito.png');
-    background-position: right;
+    background-position: left;
     background-repeat: no-repeat;
-    height: 120px;
-    width: 120px;
+    height: 110px;
+    width: 110px;
+    //border: 1px solid red;
     cursor: pointer;
     //position: absolute;
     //left: 0px;
-    background-size: 3760; //actual background size 2900px
-
+    background-size: 3791px; //actual background size 2900px
 }
 
 .elbow:hover {
@@ -24,9 +24,6 @@
 }
 
 .likeCount {}
-
-
-
 
 @-webkit-keyframes elbowBlast {
     0% {
@@ -49,31 +46,16 @@
 }
 
 .elbowAnimation {
-    -webkit-animation-name: elbowBlast; //webkit broswers
+    -webkit-animation-name: elbowBlast;
     animation-name: elbowBlast;
     -webkit-animation-duration: .4s;
     animation-duration: .4s;
     -webkit-animation-iteration-count: 0.3s;
     animation-iteration-count: 0.3s;
-    -webkit-animation-timing-function: steps(16); //background frames count 28
-    animation-timing-function: steps(16);
+    -webkit-animation-timing-function: steps(32);
+    animation-timing-function: steps(32);
     background-position: left;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .codoLike {
     margin: 0 auto;
@@ -375,4 +357,47 @@ svg {
     100% {
         transform: scale(1);
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////
+
+.loader {
+    background: none repeat scroll 0 0 $col3;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+
+.loader .loader_inner {
+    background-image: url("../img/logo/info.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: $col3;
+    height: 80px;
+    width: 80px;
+    margin-top: -40px;
+    margin-left: -40px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
 }
