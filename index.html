@@ -12,268 +12,134 @@
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="css/styleinfopaso.css">
+</head>
 
-  <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-
-  <script>
-    $(document).ready(function()
-    {
-    $('body').on("click",'.elbow',function()
-      {
-        var A=$(this).attr("id");
-        var B=A.split("like");
-          var messageID=B[1];
-          var C=parseInt($("#likeCount"+messageID).html());
-        $(this).css("background-position","")
-          var D=$(this).attr("rel");
-          if(D === 'like') 
-          {      
-          $("#likeCount"+messageID).html(C+1);
-          $(this).addClass("elbowAnimation").attr("rel","unlike");
-          }
-          else
-          {
-          $("#likeCount"+messageID).html(C-1);
-          $(this).removeClass("elbowAnimation").attr("rel","like");
-          $(this).css("background-position","left");
-          }
-      });
-    });
-    </script>
-
-  </head>
 <body>
-
   <div class="loader">
     <div class="loader_inner"></div>
   </div>
-
-
-
-
-
-
-<div class="section">
-  <div class="menu">
-    <div class="grid-container">
-      <div class="menuA">
-        <a href="#" class="btn_menu off-canvas-l-toggle" id="">
-          <img src="img/menu/menu.svg" alt="">
-        </a>
-      </div>
-      <div class="menuB">
-        <img src="img/logo/infopaso.svg" alt="">
-      </div>
-      <div class="menuC">
-        <a href="#" class="btn_menu off-canvas-r-toggle" id="">
-          <img src="img/menu/idea.svg" alt="">
-        </a>
-      </div>
-    </div>
-  </div>
-  <div class="titulo">
-    <p>
-      Revisa el estado
-    </p>
-  </div>
-  <div class="buscador">
-    <div class="d-flex justify-content-center h-100">
-      <div class="searchbar">
-        <input class="search_input" type="text" id="buscador" name="search" placeholder="Escribe tu comuna">
-        <button id="boton" class="search_icon"><i class="fas fa-search"></i></button>
-      </div>
-    </div>
-  </div>
-  <div class="listado" id="listado">
-
-    <!--   AUN NO BUSCA -->
-    <div class="emptyState">
+  <div class="section">
+    <div class="menu">
       <div class="grid-container">
-        <div class="iconBlankState">
-          <img src="img/emptystate/iconBlankState1.svg" alt="Aún no has buscado ..." />
-        </div>
-        <div class="infoBlankState">
-          <p class="dataSeg">
-            Aún no has buscado ...
-          </p>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-<div class="off-canvas-l-overlay"></div>
-<div class="off-canvas-l">
-  <div class="section" id="">
-    <div class="derecha">
-      <div class="grid-container alto">
-        <div class="interiorA">
-          <img src="img/logo/infopaso.svg" alt="" />
-        </div>
-        <div class="interiorB">
-          <p>
-            La información esta actualizada con fecha : 
-          </p>
-          <p class="actualizacion">
-            24 de oct de 2020
-          </p>
-        </div>
-        <div class="interiorC">
-    
-            <p class="">
-                Información oficial es extraida del sitio oficial del Gobierno de Chile en : 
-                <a href="https://www.gob.cl/coronavirus/pasoapaso/" target="_blank" class="link">Paso a paso</a>
-              </p>
-
-          
-        </div>
-        <div class="interiorD">
-          <p class="version">Versión 2.0.0</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-      
-<div class="off-canvas-r-overlay"></div>
-<div class="off-canvas-r">
-  <div class="section" id="">
-    <div class="derecha">
-      <div class="grid-container alto">
-        <div class="interiorA">
-          <a href="http://rukma.digital/?utm_source=infopaso&utm_medium=app&utm_campaign=app-infopaso&utm_term=infopaso&utm_content=app-infopaso" target="_blank">
-            <img src="img/logo/rukma.svg" alt="" />
+        <div class="menuA">
+          <a href="#" class="btn_menu off-canvas-l-toggle" id="">
+            <img src="img/menu/menu.svg" alt="">
           </a>
         </div>
-        <div class="interiorB">
-          <p>
-            Si te fué de utilidad, mándale un codito al equipo.
-          </p>
+        <div class="menuB">
+          <img src="img/logo/infopaso.svg" alt="">
         </div>
-        <div class="interiorC">
-
-          <div class="codoLike">
-            <div class="feed" id="feed1">
-              <div class="elbow " id="codito" rel="like"></div>
-              <p class="destacado">
-                <span class="likeCount destacado" id="likeCount1"> </span> 
-              </p>
-            </div>
-        </div>
-          <p class="infoCodito">¿Sabías que los codos eran una unidad de medida?</p>
-        </div>
-        <div class="interiorD">
-          <a href="mailto:info@rukma.digital" target="_blank" class="link">
-            info@rukma.digital
+        <div class="menuC">
+          <a href="#" class="btn_menu off-canvas-r-toggle" id="">
+            <img src="img/menu/idea.svg" alt="">
           </a>
         </div>
       </div>
     </div>
-  </div>
-</div>
-
-</div>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
-<script src="js/vendor/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
-
-<script>
-  // Toggle on button click
-  $(".off-canvas-r-toggle").on("click", function(event) {
-  event.preventDefault();
-  $("body").toggleClass("off-canvas-r-active");
-  });
-
-  // Close on mouseup and touchend
-  $(document).on("mouseup touchend", function(event) {
-  var offCanvas = $(".off-canvas-r")
-  if (!offCanvas.is(event.target) && offCanvas.has(event.target).length === 0) {
-  $("body").removeClass("off-canvas-r-active")
-  }
-  });
-</script>
-<script>
-  // Toggle on button click
-  $(".off-canvas-l-toggle").on("click", function(event) {
-  event.preventDefault();
-  $("body").toggleClass("off-canvas-l-active");
-  });
-
-  // Close on mouseup and touchend
-  $(document).on("mouseup touchend", function(event) {
-  var offCanvas = $(".off-canvas-l")
-  if (!offCanvas.is(event.target) && offCanvas.has(event.target).length === 0) {
-  $("body").removeClass("off-canvas-l-active")
-  }
-  });
-</script>
-
-<script>
-  $(document).ready(function(){
-   $.ajaxSetup({ cache: false });
-   $('#buscador').keyup(function(){
-  
-    $('#listado').html('');
-    var searchField = $('#buscador').val();
-    var expression = new RegExp(searchField, "i");
-    $.getJSON('infopaso.json', function(data) {
-     $.each(data, function(keyup, value){
-      if (value.comuna.search(expression) !== -1)
-      {
-       $('#listado').append('<div class="cardPlace"><div class="grid-container"><div class="infoCardPlace"><p class="dataName">'+value.comuna+'</p><p class="dataSeg">Estado de '+value.estado+'</p></div><div class="stateCardPlace"><img src="'+value.paso+'" class="dataState" alt="estado"></div></div></div>');
-      }
-     });
-    
-     if(listado.innerHTML === ''){
-        listado.innerHTML += `
-        <div class="emptyState">
-          <div class="grid-container">
-            <div class="iconBlankState">
-              <img src="img/emptystate/iconBlankState2.svg" alt="Mmm, ¿estará bien escrito? no lo encontramos ..." />
-            </div>
-            <div class="infoBlankState">
-              <p class="dataSeg">
-                Mmm, ¿estará bien escrito? no lo encontramos ...
-              </p>
-            </div>
+    <div class="titulo">
+      <p>
+        Revisa el estado
+      </p>
+    </div>
+    <div class="buscador">
+      <div class="d-flex justify-content-center h-100">
+        <div class="searchbar">
+          <input class="search_input" type="text" id="buscador" name="search" placeholder="Escribe tu comuna">
+          <button id="boton" class="search_icon"><i class="fas fa-search"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="listado" id="listado">
+      <div class="emptyState">
+        <div class="grid-container">
+          <div class="iconBlankState">
+            <img src="img/emptystate/iconBlankState1.svg" alt="Aún no has buscado ..." />
+          </div>
+          <div class="infoBlankState">
+            <p class="dataSeg">
+              Aún no has buscado ...
+            </p>
           </div>
         </div>
-        `
-      }
-    });
-   });
-   
-   $('#listado').on('click', 'li', function() {
-    var click_text = $(this).text().split('|');
-    $('#buscador').val($.trim(click_text[0]));
-    $("#listado").html('');
-   });
-  });
-</script>
-
-<script>
-
-  $(window).load(function() {
-
-  $(".loader_inner").fadeOut();
-  $(".loader").delay(400).fadeOut("slow");
-
-  }
-
-  );
-  </script>
-
-    </body>
+      </div>
+    </div>
+  </div>
+  <div class="off-canvas-l-overlay"></div>
+  <div class="off-canvas-l">
+    <div class="section" id="">
+      <div class="derecha">
+        <div class="grid-container alto">
+          <div class="interiorA">
+            <img src="img/logo/infopaso.svg" alt="" />
+          </div>
+          <div class="interiorB">
+            <p>
+              La información esta actualizada con fecha : 
+            </p>
+            <p class="actualizacion">
+              8 de nov de 2020
+            </p>
+          </div>
+          <div class="interiorC">
+            <p class="">
+              Información oficial es extraida del sitio oficial del Gobierno de Chile en : 
+              <a href="https://www.gob.cl/coronavirus/pasoapaso/" target="_blank" class="link">Paso a paso</a>
+            </p>
+          </div>
+          <div class="interiorD">
+            <p class="version">Versión 2.0.1</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="off-canvas-r-overlay"></div>
+  <div class="off-canvas-r">
+    <div class="section" id="">
+      <div class="derecha">
+        <div class="grid-container alto">
+          <div class="interiorA">
+            <a href="http://rukma.digital/?utm_source=infopaso&utm_medium=app&utm_campaign=app-infopaso&utm_term=infopaso&utm_content=app-infopaso" target="_blank">
+              <img src="img/logo/rukma.svg" alt="" />
+            </a>
+          </div>
+          <div class="interiorB">
+            <p>
+              Si te fué de utilidad, mándale un codito al equipo.
+            </p>
+          </div>
+          <div class="interiorC">
+            <div class="codoLike">
+              <div class="feed" id="feed1">
+                <div class="elbow " id="codito" rel="like"></div>
+                <p class="destacado">
+                  <span class="likeCount destacado" id="likeCount1"> </span> 
+                </p>
+              </div>
+          </div>
+            <p class="infoCodito">¿Sabías que los codos eran una unidad de medida?</p>
+          </div>
+          <div class="interiorD">
+            <a href="mailto:info@rukma.digital" target="_blank" class="link">
+              info@rukma.digital
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/infopaso.js"></script>
+  </body>
 </html>
 
  
