@@ -31,7 +31,8 @@
         }
     }
 
-    .search_input {
+    .buscador {
+        //border: 1px solid red !important;
         color: $col1;
         font-weight: bold;
         border: 0;
@@ -41,9 +42,6 @@
         caret-color: transparent;
         line-height: 40px;
         transition: width 0.4s linear;
-    }
-
-    .search_input {
         padding: 0 10px;
         width: 80%;
         caret-color: $col1;
@@ -51,16 +49,17 @@
         font-weight: bold;
     }
 
-    .search_icon {
+
+    .buscar {
+        //border: 1px solid green !important;
         background-color: transparent;
         border: 0px solid white;
-        height: 40px;
-        width: 40px;
+        height: 42px;
+        width: 42px;
         float: left;
         display: flex;
         justify-content: center;
         align-items: center;
-        border-radius: 50%;
         color: $col1;
         text-decoration: none;
     }
