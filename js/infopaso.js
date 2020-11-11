@@ -4,7 +4,7 @@ $(document).ready(function(){
     $('#listado').html('');
       var searchField = $('#buscador').val();
       var expression = new RegExp(searchField, "i");
-      $.getJSON('https://us-central1-rukma-landing-page-srv001.cloudfunctions.net/get-data-ppp', function(data) {
+      $.getJSON('infopaso.json', function(data) {
       $.each(data, function(keyup, value){
         if (value.comuna.search(expression) !== -1)
         {
