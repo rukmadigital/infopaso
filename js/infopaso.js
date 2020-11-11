@@ -2,15 +2,15 @@ $(document).ready(function(){
     //$.ajaxSetup({ cache: true });
     $('#buscador').keyup(function(){
     $('#listado').html('');
-     var searchField = $('#buscador').val();
-     var expression = new RegExp(searchField, "i");
-     $.getJSON('infopaso.json', function(data) {
+      var searchField = $('#buscador').val();
+      var expression = new RegExp(searchField, "i");
+      $.getJSON('https://us-central1-rukma-landing-page-srv001.cloudfunctions.net/get-data-ppp', function(data) {
       $.each(data, function(keyup, value){
-       if (value.comuna.search(expression) !== -1)
-       {
-        $('#listado').append('<div class="cardPlace"><div class="grid-container"><div class="infoCardPlace"><p class="dataName">'+value.comuna+'</p><p class="dataSeg">Estado de '+value.estado+'</p></div><div class="stateCardPlace"><img src="'+value.paso+'" class="dataState" alt="estado"></div></div></div>');
-       }
-      });
+        if (value.comuna.search(expression) !== -1)
+        {
+          $('#listado').append('<div class="cardPlace"><div class="grid-container"><div class="infoCardPlace"><p class="dataName">'+value.comuna+'</p><p class="dataSeg">Estado de '+value.estado+'</p></div><div class="stateCardPlace"><img src="'+value.paso+'" class="dataState" alt="estado"></div></div></div>');
+        }
+        });
      
       if(listado.innerHTML === ''){
          listado.innerHTML += `
@@ -37,3 +37,6 @@ $(document).ready(function(){
      $("#listado").html('');
     });
    });
+
+
+
