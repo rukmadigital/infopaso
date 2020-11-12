@@ -47,7 +47,7 @@
   {
     "comuna": "Antofagasta",
     "paso": "img/state/c-paso-3.svg",
-    "estado": "Preparación desde el lunes 9 de noviembre a las 5:00 hrs."
+    "estado": "Preparación"
   },
   {
     "comuna": "Antuco",
@@ -62,7 +62,7 @@
   {
     "comuna": "Arica",
     "paso": "img/state/c-paso-2.svg",
-    "estado": "Transición desde el lunes 9 de noviembre a las 5:00 hrs."
+    "estado": "Transición"
   },
   {
     "comuna": "Buin",
@@ -141,8 +141,8 @@
   },
   {
     "comuna": "Carahue",
-    "paso": "img/state/c-paso-1.svg",
-    "estado": "Cuarentena"
+    "paso": "img/state/c-paso-2.svg",
+    "estado": "Transición desde el lunes 16 de noviembre a las 5:00 hrs."
   },
   {
     "comuna": "Cartagena",
@@ -226,8 +226,8 @@
   },
   {
     "comuna": "Cholchol",
-    "paso": "img/state/c-paso-2.svg",
-    "estado": "Transición"
+    "paso": "img/state/c-paso-1.svg",
+    "estado": "Cuarentena desde el sábado 14 de noviembre a las 5:00 hrs."
   },
   {
     "comuna": "Chonchi",
@@ -346,13 +346,13 @@
   },
   {
     "comuna": "Corral",
-    "paso": "img/state/c-paso-2.svg",
-    "estado": "Transición"
+    "paso": "img/state/c-paso-3.svg",
+    "estado": "Preparación"
   },
   {
     "comuna": "Coyhaique",
-    "paso": "img/state/c-paso-1.svg",
-    "estado": "Cuarentena"
+    "paso": "img/state/c-paso-2.svg",
+    "estado": "Transición"
   },
   {
     "comuna": "Cunco",
@@ -362,7 +362,7 @@
   {
     "comuna": "Curacautín",
     "paso": "img/state/c-paso-2.svg",
-    "estado": "Transición desde el sábado 7 de noviembre a las 5:00 hrs."
+    "estado": "Transición"
   },
   {
     "comuna": "Curacaví",
@@ -392,7 +392,7 @@
   {
     "comuna": "Curicó",
     "paso": "img/state/c-paso-3.svg",
-    "estado": "Preparación desde el lunes 9 de noviembre a las 5:00 hrs."
+    "estado": "Preparación"
   },
   {
     "comuna": "Dalcahue",
@@ -422,7 +422,7 @@
   {
     "comuna": "El Monte",
     "paso": "img/state/c-paso-4.svg",
-    "estado": "Apertura inicial desde el lunes 9 de noviembre a las 5:00 hrs."
+    "estado": "Apertura inicial"
   },
   {
     "comuna": "El Quisco",
@@ -442,7 +442,7 @@
   {
     "comuna": "Ercilla",
     "paso": "img/state/c-paso-3.svg",
-    "estado": "Preparación desde el lunes 9 de noviembre a las 5:00 hrs."
+    "estado": "Preparación"
   },
   {
     "comuna": "Estación Central",
@@ -482,12 +482,12 @@
   {
     "comuna": "Futrono",
     "paso": "img/state/c-paso-1.svg",
-    "estado": "Cuarentena desde el sábado 7 de noviembre a las 5:00 hrs."
+    "estado": "Cuarentena"
   },
   {
     "comuna": "Galvarino",
-    "paso": "img/state/c-paso-1.svg",
-    "estado": "Cuarentena"
+    "paso": "img/state/c-paso-2.svg",
+    "estado": "Transición desde el lunes 16 de noviembre a las 5:00 hrs."
   },
   {
     "comuna": "General Lagos",
@@ -556,8 +556,8 @@
   },
   {
     "comuna": "Independencia",
-    "paso": "img/state/c-paso-3.svg",
-    "estado": "Preparación"
+    "paso": "img/state/c-paso-4.svg",
+    "estado": "Apertura Inicial desde el lunes 16 de noviembre a las 5:00 hrs."
   },
   {
     "comuna": "Iquique",
@@ -566,8 +566,8 @@
   },
   {
     "comuna": "Isla de Maipo",
-    "paso": "img/state/c-paso-1.svg",
-    "estado": "Cuarentena"
+    "paso": "img/state/c-paso-2.svg",
+    "estado": "Transición desde el lunes 16 de noviembre a las 5:00 hrs."
   },
   {
     "comuna": "Isla de Pascua",
@@ -581,8 +581,8 @@
   },
   {
     "comuna": "La Cisterna",
-    "paso": "img/state/c-paso-2.svg",
-    "estado": "Transición"
+    "paso": "img/state/c-paso-3.svg",
+    "estado": "Preparación desde el lunes 16 de noviembre a las 5:00 hrs."
   },
   {
     "comuna": "La Cruz",
@@ -622,7 +622,7 @@
   {
     "comuna": "La Reina",
     "paso": "img/state/c-paso-4.svg",
-    "estado": "Apertura inicial desde el lunes 9 de noviembre a las 5:00 hrs."
+    "estado": "Apertura inicial"
   },
   {
     "comuna": "La Serena",
@@ -651,8 +651,8 @@
   },
   {
     "comuna": "Laja",
-    "paso": "img/state/c-paso-2.svg",
-    "estado": "Transición"
+    "paso": "img/state/c-paso-3.svg",
+    "estado": "Preparación desde el lunes 16 de noviembre a las 5:00 hrs."
   },
   {
     "comuna": "Lampa",
@@ -671,18 +671,18 @@
   },
   {
     "comuna": "Las Condes",
-    "paso": "img/state/c-paso-3.svg",
-    "estado": "Preparación"
+    "paso": "img/state/c-paso-4.svg",
+    "estado": "Apertura Inicial desde el lunes 16 de noviembre a las 5:00 hrs."
   },
   {
     "comuna": "Lautaro",
     "paso": "img/state/c-paso-1.svg",
-    "estado": "Cuarentena desde el sábado 7 de noviembre a las 5:00 hrs."
+    "estado": "Cuarentena"
   },
   {
     "comuna": "Lebu",
-    "paso": "img/state/c-paso-1.svg",
-    "estado": "Cuarentena"
+    "paso": "img/state/c-paso-2.svg",
+    "estado": "Transición"
   },
   {
     "comuna": "Licantén",
@@ -726,8 +726,8 @@
   },
   {
     "comuna": "Lo Prado",
-    "paso": "img/state/c-paso-2.svg",
-    "estado": "Transición"
+    "paso": "img/state/c-paso-3.svg",
+    "estado": "Preparación desde el lunes 16 de noviembre a las 5:00 hrs."
   },
   {
     "comuna": "Lolol",
@@ -737,7 +737,7 @@
   {
     "comuna": "Loncoche",
     "paso": "img/state/c-paso-3.svg",
-    "estado": "Preparación desde el lunes 9 de noviembre a las 5:00 hrs."
+    "estado": "Preparación"
   },
   {
     "comuna": "Longaví",
@@ -761,13 +761,13 @@
   },
   {
     "comuna": "Los Ángeles",
-    "paso": "img/state/c-paso-3.svg",
-    "estado": "Preparación"
+    "paso": "img/state/c-paso-2.svg",
+    "estado": "Transición desde el sábado 14 de noviembre a las 5:00 hrs."
   },
   {
     "comuna": "Los Lagos",
-    "paso": "img/state/c-paso-2.svg",
-    "estado": "Transición"
+    "paso": "img/state/c-paso-1.svg",
+    "estado": "Cuarentena desde el sábado 14 de noviembre a las 5:00 hrs."
   },
   {
     "comuna": "Los Muermos",
@@ -812,7 +812,7 @@
   {
     "comuna": "Maipú",
     "paso": "img/state/c-paso-4.svg",
-    "estado": "Apertura inicial desde el lunes 9 de noviembre a las 5:00 hrs."
+    "estado": "Apertura inicial"
   },
   {
     "comuna": "Malloa",
@@ -841,8 +841,8 @@
   },
   {
     "comuna": "Maule",
-    "paso": "img/state/c-paso-2.svg",
-    "estado": "Transición"
+    "paso": "img/state/c-paso-3.svg",
+    "estado": "Preparación"
   },
   {
     "comuna": "Maullín",
@@ -852,12 +852,12 @@
   {
     "comuna": "Mejillones",
     "paso": "img/state/c-paso-3.svg",
-    "estado": "Preparación desde el lunes 9 de noviembre a las 5:00 hrs."
+    "estado": "Preparación"
   },
   {
     "comuna": "Melipeuco",
     "paso": "img/state/c-paso-2.svg",
-    "estado": "Transición desde el sábado 7 de noviembre a las 5:00 hrs."
+    "estado": "Transición"
   },
   {
     "comuna": "Melipilla",
@@ -886,8 +886,8 @@
   },
   {
     "comuna": "Nacimiento",
-    "paso": "img/state/c-paso-3.svg",
-    "estado": "Preparación"
+    "paso": "img/state/c-paso-2.svg",
+    "estado": "Transición desde el sábado 14 de noviembre a las 5:00 hrs."
   },
   {
     "comuna": "Nancagua",
@@ -966,8 +966,8 @@
   },
   {
     "comuna": "Padre Hurtado",
-    "paso": "img/state/c-paso-2.svg",
-    "estado": "Transición"
+    "paso": "img/state/c-paso-3.svg",
+    "estado": "Preparación desde el lunes 16 de noviembre a las 5:00 hrs."
   },
   {
     "comuna": "Padre Las Casas",
@@ -986,8 +986,8 @@
   },
   {
     "comuna": "Paine",
-    "paso": "img/state/c-paso-3.svg",
-    "estado": "Preparación"
+    "paso": "img/state/c-paso-4.svg",
+    "estado": "Apertura Inicial"
   },
   {
     "comuna": "Palena",
@@ -1091,8 +1091,8 @@
   },
   {
     "comuna": "Pichidegua",
-    "paso": "img/state/c-paso-2.svg",
-    "estado": "Transición"
+    "paso": "img/state/c-paso-3.svg",
+    "estado": "Preparación desde el lunes 16 de noviembre a las 5:00 hrs."
   },
   {
     "comuna": "Pichilemu",
@@ -1152,12 +1152,12 @@
   {
     "comuna": "Pucón",
     "paso": "img/state/c-paso-3.svg",
-    "estado": "Preparación desde el lunes 9 de noviembre a las 5:00 hrs."
+    "estado": "Preparación"
   },
   {
     "comuna": "Pudahuel",
     "paso": "img/state/c-paso-4.svg",
-    "estado": "Apertura inicial desde el lunes 9 de noviembre a las 5:00 hrs."
+    "estado": "Apertura inicial"
   },
   {
     "comuna": "Puente Alto",
@@ -1196,8 +1196,8 @@
   },
   {
     "comuna": "Puqueldón",
-    "paso": "img/state/c-paso-3.svg",
-    "estado": "Preparación"
+    "paso": "img/state/c-paso-2.svg",
+    "estado": "Transición desde el sábado 14 de noviembre a las 5:00 hrs."
   },
   {
     "comuna": "Purén",
@@ -1206,8 +1206,8 @@
   },
   {
     "comuna": "Purranque",
-    "paso": "img/state/c-paso-1.svg",
-    "estado": "Cuarentena"
+    "paso": "img/state/c-paso-2.svg",
+    "estado": "Transición desde el lunes 16 de noviembre a las 5:00 hrs."
   },
   {
     "comuna": "Putaendo",
@@ -1231,8 +1231,8 @@
   },
   {
     "comuna": "Quellón",
-    "paso": "img/state/c-paso-2.svg",
-    "estado": "Transición"
+    "paso": "img/state/c-paso-3.svg",
+    "estado": "Preparación"
   },
   {
     "comuna": "Quemchi",
@@ -1247,7 +1247,7 @@
   {
     "comuna": "Quilicura",
     "paso": "img/state/c-paso-4.svg",
-    "estado": "Apertura inicial desde el lunes 9 de noviembre a las 5:00 hrs."
+    "estado": "Apertura inicial"
   },
   {
     "comuna": "Quilleco",
@@ -1312,17 +1312,17 @@
   {
     "comuna": "Recoleta",
     "paso": "img/state/c-paso-4.svg",
-    "estado": "Apertura inicial desde el lunes 9 de noviembre a las 5:00 hrs."
+    "estado": "Apertura inicial"
   },
   {
     "comuna": "Renaico",
     "paso": "img/state/c-paso-3.svg",
-    "estado": "Preparación desde el lunes 9 de noviembre a las 5:00 hrs."
+    "estado": "Preparación"
   },
   {
     "comuna": "Renca",
     "paso": "img/state/c-paso-4.svg",
-    "estado": "Apertura inicial desde el lunes 9 de noviembre a las 5:00 hrs."
+    "estado": "Apertura inicial"
   },
   {
     "comuna": "Rengo",
@@ -1366,8 +1366,8 @@
   },
   {
     "comuna": "Río Negro",
-    "paso": "img/state/c-paso-1.svg",
-    "estado": "Cuarentena"
+    "paso": "img/state/c-paso-2.svg",
+    "estado": "Transición desde el lunes 16 de noviembre a las 5:00 hrs."
   },
   {
     "comuna": "Río Verde",
@@ -1382,7 +1382,7 @@
   {
     "comuna": "Saavedra",
     "paso": "img/state/c-paso-2.svg",
-    "estado": "Transición desde el lunes 9 de noviembre a las 5:00 hrs."
+    "estado": "Transición"
   },
   {
     "comuna": "Sagrada Familia",
@@ -1401,8 +1401,8 @@
   },
   {
     "comuna": "San Bernardo",
-    "paso": "img/state/c-paso-3.svg",
-    "estado": "Preparación"
+    "paso": "img/state/c-paso-4.svg",
+    "estado": "Apertura Inicial desde el lunes 16 de noviembre a las 5:00 hrs."
   },
   {
     "comuna": "San Carlos",
@@ -1431,8 +1431,8 @@
   },
   {
     "comuna": "San Fernando",
-    "paso": "img/state/c-paso-2.svg",
-    "estado": "Transición"
+    "paso": "img/state/c-paso-3.svg",
+    "estado": "Preparación desde el lunes 16 de noviembre a las 5:00 hrs."
   },
   {
     "comuna": "San Gregorio",
@@ -1457,12 +1457,12 @@
   {
     "comuna": "San José de Maipo",
     "paso": "img/state/c-paso-4.svg",
-    "estado": "Apertura inicial desde el lunes 9 de noviembre a las 5:00 hrs."
+    "estado": "Apertura inicial"
   },
   {
     "comuna": "San Juan de la Costa",
-    "paso": "img/state/c-paso-1.svg",
-    "estado": "Cuarentena"
+    "paso": "img/state/c-paso-2.svg",
+    "estado": "Transición desde el lunes 16 de noviembre a las 5:00 hrs."
   },
   {
     "comuna": "San Miguel",
@@ -1506,8 +1506,8 @@
   },
   {
     "comuna": "San Rosendo",
-    "paso": "img/state/c-paso-2.svg",
-    "estado": "Transición"
+    "paso": "img/state/c-paso-3.svg",
+    "estado": "Preparación desde el lunes 16 de noviembre a las 5:00 hrs."
   },
   {
     "comuna": "San Vicente",
@@ -1526,8 +1526,8 @@
   },
   {
     "comuna": "Santa Juana",
-    "paso": "img/state/c-paso-3.svg",
-    "estado": "Preparación"
+    "paso": "img/state/c-paso-2.svg",
+    "estado": "Transición desde el sábado 14 de noviembre a las 5:00 hrs."
   },
   {
     "comuna": "Santa Maria",
@@ -1536,8 +1536,8 @@
   },
   {
     "comuna": "Santiago",
-    "paso": "img/state/c-paso-3.svg",
-    "estado": "Preparación"
+    "paso": "img/state/c-paso-4.svg",
+    "estado": "Apertura Inicial desde el lunes 16 de noviembre a las 5:00 hrs."
   },
   {
     "comuna": "Santo Domingo",
@@ -1556,8 +1556,8 @@
   },
   {
     "comuna": "Talca",
-    "paso": "img/state/c-paso-2.svg",
-    "estado": "Zona Urbana en transición"
+    "paso": "img/state/c-paso-3.svg",
+    "estado": "Preparación"
   },
   {
     "comuna": "Talcahuano",
@@ -1582,7 +1582,7 @@
   {
     "comuna": "Teodoro Schmidt",
     "paso": "img/state/c-paso-3.svg",
-    "estado": "Preparación desde el lunes 9 de noviembre a las 5:00 hrs."
+    "estado": "Preparación"
   },
   {
     "comuna": "Tierra Amarilla",
@@ -1617,7 +1617,7 @@
   {
     "comuna": "Tomé",
     "paso": "img/state/c-paso-2.svg",
-    "estado": "Transición desde el lunes 9 de noviembre a las 5:00 hrs."
+    "estado": "Transición"
   },
   {
     "comuna": "Torres del Paine",
@@ -1631,8 +1631,8 @@
   },
   {
     "comuna": "Traiguén",
-    "paso": "img/state/c-paso-2.svg",
-    "estado": "Transición desde el sábado 7 de noviembre a las 5:00 hrs."
+    "paso": "img/state/c-paso-1.svg",
+    "estado": "Cuarentena desde el sábado 14 de noviembre a las 5:00 hrs."
   },
   {
     "comuna": "Treguaco",
@@ -1647,7 +1647,7 @@
   {
     "comuna": "Valdivia",
     "paso": "img/state/c-paso-1.svg",
-    "estado": "Cuarentena desde el sábado 7 de noviembre a las 5:00 hrs."
+    "estado": "Cuarentena"
   },
   {
     "comuna": "Vallenar",
@@ -1691,8 +1691,8 @@
   },
   {
     "comuna": "Villarrica",
-    "paso": "img/state/c-paso-1.svg",
-    "estado": "Cuarentena"
+    "paso": "img/state/c-paso-2.svg",
+    "estado": "Transición desde el lunes16 de noviembre a las 5:00 hrs."
   },
   {
     "comuna": "Viña del Mar",
