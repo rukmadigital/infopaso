@@ -1,0 +1,78 @@
+/*
+.grid-container {
+    width: 100%;
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "infopasoLogotipo"
+        "datoA"
+        "datoB"
+        "version";
+}
+
+.version {
+    grid-area: version;
+    align-self: center;
+    justify-self: center;
+}
+
+.infopasoLogotipo {
+    grid-area: infopasoLogotipo;
+    align-self: center;
+    justify-self: center;
+}
+
+.datoA {
+    grid-area: datoA;
+    align-self: center;
+    justify-self: center;
+}
+
+.datoB {
+    grid-area: datoB;
+    align-self: center;
+    justify-self: center;
+}
+
+
+
+.datos {
+    text-align: left;
+
+    p {
+        text-align: center;
+        color: $col1;
+        font-weight: normal;
+        font-size: 1em;
+        padding: 0px;
+        margin: 1em 0em;
+        letter-spacing: 0.1em;
+
+        .gob {
+            color: $col4;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    }
+
+    .actualizacion {
+        padding: 1em;
+        background-color: $col8;
+        border-radius: 5em;
+        font-weight: bold;
+        color: $col2;
+    }
+
+    .version {
+        text-align: center;
+        color: $color-4;
+        font-weight: normal;
+        font-size: 0.6em;
+        padding: 0px;
+        margin: 0px;
+        letter-spacing: 0.1em;
+    }
+}
+*/

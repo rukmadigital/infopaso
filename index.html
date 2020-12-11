@@ -1,0 +1,1216 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MDPBD2L');</script>
+  <!-- End Google Tag Manager -->
+  <!-- Hotjar Tracking Code for http://infopaso.rukma.digital/ -->
+  <script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:2085153,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Info Paso | Paso a pasito 2020</title>
+  <meta name="description" content="Portal con la intensión de juntar y disponer la información de los estados del plan Paso a paso del Gobiernos de Chile, a todas las personas que usan internet. Proyecto sin fines de lucro y creada de manera autónoma, con pasión, talento y ganas de hacer un mundo mejor.">
+
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#EBEFFB">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styleinfopaso.css">
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MDPBD2L"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header>
+<div class="loader">
+  <div class="loader_inner"></div>
+</div>
+</header>
+  <div class="section">
+    <div class="menu">
+      <div class="grid-container">
+        <div class="menuA">
+          <a href="#" class="btn_menu off-canvas-l-toggle" id="menu" aria-labelledby="menu" aria-expanded="true" rel="">
+            <img src="img/menu/menu.svg" alt="menu" />
+          </a>
+        </div>
+        <div class="menuB">
+          <img src="img/logo/infopaso.svg" alt="Infopaso" />
+        </div>
+        <div class="menuC">
+          <a href="#" class="btn_menu off-canvas-r-toggle" id="idea" aria-labelledby="idea" aria-expanded="true" rel="noopener">
+            <img src="img/menu/idea.svg" alt="idea" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="titulo">
+      <p>
+        Revisa el estado
+      </p>
+    </div>
+    <div class="buscador">
+      <div class="d-flex justify-content-center h-100">
+        <div class="searchbar">
+          <input class="buscador" type="text" id="buscador" name="search" placeholder="Escribe tu comuna">
+          <i class="fas fa-search buscar" role="buscar"></i>
+        </div>
+      </div>
+    </div>
+    <div class="listado" id="listado">
+      <div class="emptyState">
+        <div class="grid-container">
+          <div class="iconBlankState">
+            <img src="img/emptystate/iconBlankState1.svg" alt="Aún no has buscado ..." />
+          </div>
+          <div class="infoBlankState">
+            <p class="dataSeg">
+              Aún no has buscado ...
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+<!-- Modal : Paso 1 -->
+<div class="modal right fade" id="1" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header paso1">
+      <div class="grid-container">
+        <div class="volver">
+          <button type="button" class="close" data-dismiss="modal">
+            <i class="fa fa-angle-left" aria-hidden="true"></i> Volver
+          </button>
+        </div>
+        <div class="nameStep">
+          <p class="dataSeg">Etapa de</p>
+          <p class="dataName">Transición</p>
+        </div>
+        <div class="imgStep">
+          <img src="img/state/c-paso-1.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="modal-body">
+      <div class="boxinteres">
+        <p class="title">Link de interes</p>
+        <hr>
+        <!-- links -->
+        <ul>
+          <li><a href="#">Permiso Temporal <i class="fa fa-angle-right" aria-hidden="true"></i></a> </li>
+          <li><a href="#">Salvo Conducto <i class="fa fa-angle-right" aria-hidden="true"></i></a> </li>
+        </ul>
+        <!-- links -->
+      </div>
+      <div class="funcionan">
+        <div class="row">
+          <!-- titulo -->
+          <div class="col-lg-12">
+            <p class="title">
+              ¿Qué funciona en mi comuna?
+            </p>
+            <p class="parrafo">
+              Revisa lo que esta funcionando hoy
+            </p>
+          </div>
+          <!-- titulo -->
+          <br>
+          <!-- Esenciales -->
+          <div class="col-lg-12">
+            <p class="subtitle">Escenciales</p>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/farmacia.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Farmacia
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/gimnacio.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Gimnacio
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/negocio.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Negocio
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/salud.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Centro de Salud
+                  </p>
+                </div>
+              </div>
+            </div>  
+          </div>
+         
+          <!-- alerta -->
+          <div class="col-lg-12">
+            <br>
+            <div class="cardFun alertaEtapa">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/alerta.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                    Todo siguiendo los protocolos establecidos
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- alerta -->
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- Modal : Paso 1 -->
+
+<!-- Modal : Paso 2 -->
+<div class="modal right fade" id="2" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header paso2">
+      <div class="grid-container">
+        <div class="volver">
+          <button type="button" class="close" data-dismiss="modal">
+            <i class="fa fa-angle-left" aria-hidden="true"></i> Volver
+          </button>
+        </div>
+        <div class="nameStep">
+          <p class="dataSeg">Etapa de</p>
+          <p class="dataName">Transición</p>
+        </div>
+        <div class="imgStep">
+          <img src="img/state/c-paso-2.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="modal-body">
+      <div class="boxinteres">
+        <p class="title">Link de interes</p>
+        <hr>
+        <!-- links -->
+        <ul>
+          <li><a href="#">Permiso Temporal <i class="fa fa-angle-right" aria-hidden="true"></i></a> </li>
+          <li><a href="#">Salvo Conducto <i class="fa fa-angle-right" aria-hidden="true"></i></a> </li>
+        </ul>
+        <!-- links -->
+      </div>
+      <div class="funcionan">
+        <div class="row">
+          <!-- titulo -->
+          <div class="col-lg-12">
+            <p class="title">
+              ¿Qué funciona en mi comuna?
+            </p>
+            <p class="parrafo">
+              Revisa lo que esta funcionando hoy
+            </p>
+          </div>
+          <!-- titulo -->
+          <br>
+          <!-- Esenciales -->
+          <div class="col-lg-12">
+            <p class="subtitle">Escenciales</p>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/farmacia.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Farmacia
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/gimnacio.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Gimnacio
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/negocio.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Negocio
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/salud.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Centro de Salud
+                  </p>
+                </div>
+              </div>
+            </div>  
+          </div>
+          <!-- No Esenciales -->
+          <div class="col-lg-12">
+            <p class="subtitle">No Esenciales</p>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/comercio.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Comercio
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- alerta -->
+          <div class="col-lg-12">
+            <br>
+            <div class="cardFun alertaEtapa">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/alerta.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                    Todo siguiendo los protocolos establecidos
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- alerta -->
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- Modal : Paso 2 -->
+
+
+<!-- Modal : Paso 3 -->
+<div class="modal right fade" id="3" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header paso3">
+      <div class="grid-container">
+        <div class="volver">
+          <button type="button" class="close" data-dismiss="modal">
+            <i class="fa fa-angle-left" aria-hidden="true"></i> Volver
+          </button>
+        </div>
+        <div class="nameStep">
+          <p class="dataSeg">Etapa de</p>
+          <p class="dataName">Preparación</p>
+        </div>
+        <div class="imgStep">
+          <img src="img/state/c-paso-3.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="modal-body">
+      <div class="boxinteres">
+        <p class="title">Link de interes</p>
+        <hr>
+        <!-- links -->
+        <ul>
+          <li><a href="#">Permiso Temporal <i class="fa fa-angle-right" aria-hidden="true"></i></a> </li>
+          <li><a href="#">Salvo Conducto <i class="fa fa-angle-right" aria-hidden="true"></i></a> </li>
+        </ul>
+        <!-- links -->
+      </div>
+      <div class="funcionan">
+        <div class="row">
+          <!-- titulo -->
+          <div class="col-lg-12">
+            <p class="title">
+              ¿Qué funciona en mi comuna?
+            </p>
+            <p class="parrafo">
+              Revisa lo que esta funcionando hoy
+            </p>
+          </div>
+          <!-- titulo -->
+          <br>
+          <!-- Esenciales -->
+          <div class="col-lg-12">
+            <p class="subtitle">Escenciales</p>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/farmacia.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Farmacia
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/gimnacio.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Gimnacio
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/negocio.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Negocio
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/salud.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Centro de Salud
+                  </p>
+                </div>
+              </div>
+            </div>  
+          </div>
+          <!-- No Esenciales -->
+          <div class="col-lg-12">
+            <p class="subtitle">No Esenciales</p>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/comercio.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Comercio
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Atención al público -->
+          <div class="col-lg-12">
+            <p class="subtitle">Atención al público</p>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/atencion.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                    Atención de público en restaurantes
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- alerta -->
+          <div class="col-lg-12">
+            <br>
+            <div class="cardFun alertaEtapa">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/alerta.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                    Todo siguiendo los protocolos establecidos
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- alerta -->
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- Modal : Paso 3 -->
+
+<!-- Modal : Paso 4 -->
+<div class="modal right fade" id="4" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header paso4">
+      <div class="grid-container">
+        <div class="volver">
+          <button type="button" class="close" data-dismiss="modal">
+            <i class="fa fa-angle-left" aria-hidden="true"></i> Volver
+          </button>
+        </div>
+        <div class="nameStep">
+          <p class="dataSeg">Etapa de</p>
+          <p class="dataName">Apertura Inicial</p>
+        </div>
+        <div class="imgStep">
+          <img src="img/state/c-paso-4.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="modal-body">
+      <div class="boxinteres">
+        <p class="title">Link de interes</p>
+        <hr>
+        <!-- links -->
+        <ul>
+          <li><a href="#">Permiso Temporal <i class="fa fa-angle-right" aria-hidden="true"></i></a> </li>
+          <li><a href="#">Salvo Conducto <i class="fa fa-angle-right" aria-hidden="true"></i></a> </li>
+        </ul>
+        <!-- links -->
+      </div>
+      <div class="funcionan">
+        <div class="row">
+          <!-- titulo -->
+          <div class="col-lg-12">
+            <p class="title">
+              ¿Qué funciona en mi comuna?
+            </p>
+            <p class="parrafo">
+              Revisa lo que esta funcionando hoy
+            </p>
+          </div>
+          <!-- titulo -->
+          <br>
+          <!-- Esenciales -->
+          <div class="col-lg-12">
+            <p class="subtitle">Escenciales</p>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/farmacia.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Farmacia
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/gimnacio.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Gimnacio
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/negocio.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Negocio
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/salud.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Centro de Salud
+                  </p>
+                </div>
+              </div>
+            </div>  
+          </div>
+          <!-- No Esenciales -->
+          <div class="col-lg-12">
+            <p class="subtitle">No Esenciales</p>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/comercio.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Comercio
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Atención al público -->
+          <div class="col-lg-12">
+            <p class="subtitle">Atención al público</p>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/atencion.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                    Atención de público en restaurantes
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Deporte -->
+          <div class="col-lg-12">
+            <p class="subtitle">Deporte</p>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/gimnacio.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                    Deporte
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Entretenimiento -->
+          <div class="col-lg-12">
+            <p class="subtitle">Entretenimiento</p>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/teatro.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Teatros
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/cafe.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Café
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/restaurantes.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                    Restaurantes
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/cine.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Cine
+                  </p>
+                </div>
+              </div>
+            </div>  
+          </div>
+          <!-- Educación -->
+          <div class="col-lg-12">
+            <p class="subtitle">Educación</p>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/estudio.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                    Clases
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Adultos Mayores -->
+          <div class="col-lg-12">
+            <p class="subtitle">Visitas</p>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/centro.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                    Centro Adultos Mayores
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/club.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                    Clubes Adultos Mayores
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+          <!-- alerta -->
+          <div class="col-lg-12">
+            <br>
+            <div class="cardFun alertaEtapa">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/alerta.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                    Todo siguiendo los protocolos establecidos
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- alerta -->
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- Modal : Paso 4 -->
+
+
+<!-- Modal : Paso 5 -->
+<div class="modal right fade" id="5" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header paso5">
+      <div class="grid-container">
+        <div class="volver">
+          <button type="button" class="close" data-dismiss="modal">
+            <i class="fa fa-angle-left" aria-hidden="true"></i> Volver
+          </button>
+        </div>
+        <div class="nameStep">
+          <p class="dataSeg">Etapa de</p>
+          <p class="dataName">Apertura Avanzada</p>
+        </div>
+        <div class="imgStep">
+          <img src="img/state/c-paso-5.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="modal-body">
+      <div class="boxinteres">
+        <p class="title">Link de interes</p>
+        <hr>
+        <!-- links -->
+        <ul>
+          <li><a href="#">Permiso Temporal <i class="fa fa-angle-right" aria-hidden="true"></i></a> </li>
+          <li><a href="#">Salvo Conducto <i class="fa fa-angle-right" aria-hidden="true"></i></a> </li>
+        </ul>
+        <!-- links -->
+      </div>
+      <div class="funcionan">
+        <div class="row">
+          <!-- titulo -->
+          <div class="col-lg-12">
+            <p class="title">
+              ¿Qué funciona en mi comuna?
+            </p>
+            <p class="parrafo">
+              Revisa lo que esta funcionando hoy
+            </p>
+          </div>
+          <!-- titulo -->
+          <br>
+          <!-- Esenciales -->
+          <div class="col-lg-12">
+            <p class="subtitle">Escenciales</p>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/farmacia.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Farmacia
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/gimnacio.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Gimnacio
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/negocio.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Negocio
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/salud.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Centro de Salud
+                  </p>
+                </div>
+              </div>
+            </div>  
+          </div>
+          <!-- No Esenciales -->
+          <div class="col-lg-12">
+            <p class="subtitle">No Esenciales</p>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/comercio.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Comercio
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Atención al público -->
+          <div class="col-lg-12">
+            <p class="subtitle">Atención al público</p>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/atencion.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                    Atención de público en restaurantes
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Carrete -->
+          <div class="col-lg-12">
+            <p class="subtitle">Carrete</p>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/pub.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Pubs
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/discoteca.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Discoteca
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Deporte -->
+          <div class="col-lg-12">
+            <p class="subtitle">Deporte</p>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/gimnacio.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                    Deporte
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Entretenimiento -->
+          <div class="col-lg-12">
+            <p class="subtitle">Entretenimiento</p>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/teatro.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Teatros
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/cafe.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Café
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/restaurantes.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                    Restaurantes
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/cine.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                  Cine
+                  </p>
+                </div>
+              </div>
+            </div>  
+          </div>
+          <!-- Educación -->
+          <div class="col-lg-12">
+            <p class="subtitle">Educación</p>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/estudio.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                    Clases
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Visitas -->
+          <div class="col-lg-12">
+            <p class="subtitle">Visitas</p>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/elaem.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                    Visitas Centro ELEAM
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/sename.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                    Visitas SENAME
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Adultos Mayores -->
+          <div class="col-lg-12">
+            <p class="subtitle">Visitas</p>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/centro.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                    Centro Adultos Mayores
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cardFun">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/club.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                    Clubes Adultos Mayores
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+          <!-- alerta -->
+          <div class="col-lg-12">
+            <br>
+            <div class="cardFun alertaEtapa">
+              <div class="grid-container">
+                <div class="imgFun">
+                    <img src="img/funcionan/alerta.svg" alt="">
+                </div>
+                <div class="titleFun">
+                  <p class="parrafo">
+                    Todo siguiendo los protocolos establecidos
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- alerta -->
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- Modal : Paso 5 -->
+
+
+
+
+
+
+
+
+
+<!-- Off canvas : InfoPasoActualizacion - Izquierda-->
+  <div class="off-canvas-l-overlay"></div>
+  <div class="off-canvas-l">
+    <div class="section" id="InfoPasoActualizacion">
+      <div class="derecha">
+        <div class="grid-container alto">
+          <div class="interiorA">
+            <img src="img/logo/infopaso.svg" alt="Infopaso" />
+          </div>
+          <div class="interiorB">
+            <p>
+              La información esta actualizada con fecha : 
+            </p>
+            <p class="actualizacion">
+              10 de dic de 2020
+            </p>
+          </div>
+          <div class="interiorC">
+            <p class="">
+              Información oficial extraída del sitio oficial del Gobierno de Chile en : 
+              <a href="https://www.gob.cl/coronavirus/pasoapaso/" target="_blank" class="link" aria-expanded="true"
+              aria-controls="ancla">Paso a Paso</a>
+            </p>
+          </div>
+          <div class="interiorD">
+            <p class="version">Versión 2.0.3</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Off canvas : InfoPasoIdea - Derecha -->
+  <div class="off-canvas-r-overlay"></div>
+  <div class="off-canvas-r">
+    <div class="section" id="InfoPasoIdea">
+      <div class="derecha">
+        <div class="grid-container alto">
+          <div class="interiorA">
+            <a href="http://rukma.digital/?utm_source=infopaso&utm_medium=app&utm_campaign=app-infopaso&utm_term=infopaso&utm_content=app-infopaso" aria-labelledby="rukmaLogotipo" aria-expanded="true" target="_blank" rel="noopener">
+              <img src="img/logo/rukma.svg" alt="logotipoRukma" title="logotipoRukma" />
+            </a>
+          </div>
+          <div class="interiorB">
+            <p>
+              Si te fue de utilidad, mándale un codito al equipo.
+            </p>
+          </div>
+          <div class="interiorC">
+            <div class="codoLike">
+              <div class="feed" id="feed1">
+                <div class="elbow " id="codito" rel="like"></div>
+                <p class="destacado">
+                  <span class="likeCount destacado" id="likeCount1"> </span> 
+                </p>
+              </div>
+          </div>
+            <p class="infoCodito">¿Sabías que los codos eran una unidad de medida?</p>
+          </div>
+          <div class="interiorD">
+            <a href="mailto:info@rukma.digital" target="_blank" class="link" aria-expanded="true"
+            aria-controls="correo">
+              info@rukma.digital
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+ <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>-->
+  <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+ <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>--> 
+
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/infopaso.js"></script>
+  <script src="sw.js"></script>
+
+</body>
+</html>
+
+ 
