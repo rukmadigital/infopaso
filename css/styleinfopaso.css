@@ -1131,9 +1131,9 @@ svg {
   font-weight: bold;
   font-size: 1.1em;
   color: #6F7187;
-  margin-top: 2em; }
+  margin-top: 1em; }
 
-.funcionan .parrafo {
+.parrafo {
   text-align: left;
   color: #A1A3BB;
   font-weight: bold;
@@ -1142,20 +1142,29 @@ svg {
   margin: 0px;
   letter-spacing: 0.1em; }
 
-.funcionan .alertaEtapa {
+.parrafoCategoria {
+  text-align: left;
+  color: #A1A3BB !important;
+  font-weight: bold;
+  font-size: 0.7em !important;
+  padding: 0px;
+  margin: 0px;
+  letter-spacing: 0.1em; }
+
+.alertaEtapa {
   max-width: 90%;
   margin: 0 auto;
   border: 2px solid #A1A3BB;
   border-radius: 8px; }
-  .funcionan .alertaEtapa p {
+  .alertaEtapa p {
     color: #A1A3BB; }
-  .funcionan .alertaEtapa img {
+  .alertaEtapa img {
     width: 60px;
     height: 60px; }
 
-.funcionan .cardFun {
+.cardFun {
   padding: 0em 0em; }
-  .funcionan .cardFun .grid-container {
+  .cardFun .grid-container {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 0.3fr 0px 1fr;
@@ -1164,7 +1173,7 @@ svg {
     grid-template-rows: 1fr;
     gap: 0px 0px;
     grid-template-areas: "imgFun titleFun"; }
-  .funcionan .cardFun .imgFun {
+  .cardFun .imgFun {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: imgFun;
@@ -1172,14 +1181,14 @@ svg {
     align-self: center;
     -ms-grid-column-align: center;
     justify-self: center; }
-    .funcionan .cardFun .imgFun img {
+    .cardFun .imgFun img {
       width: 70px;
       height: 70px;
       margin: 0.4em;
       -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
       box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
       border-radius: 100%; }
-  .funcionan .cardFun .titleFun {
+  .cardFun .titleFun {
     -ms-grid-row: 1;
     -ms-grid-column: 3;
     grid-area: titleFun;
@@ -1187,7 +1196,7 @@ svg {
     align-self: center;
     -ms-grid-column-align: left;
     justify-self: left; }
-    .funcionan .cardFun .titleFun p {
+    .cardFun .titleFun p {
       text-align: left;
       color: #A1A3BB;
       font-weight: bold;
