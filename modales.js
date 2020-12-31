@@ -390,6 +390,11 @@ function servicios(servicios){
                       Ir a Comisaria Virtual<i class="fa fa-angle-right" aria-hidden="true"></i>
                   </a>
               </li>
+              <li>
+              <a href="https://www.c19.cl/" target="_blank">
+                  Ir a Pasaportes Sanitarios<i class="fa fa-angle-right" aria-hidden="true"></i>
+              </a>
+          </li>
           </ul>
         </div>
         <div class="funcionan">

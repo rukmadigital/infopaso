@@ -32,7 +32,7 @@
   {
     "COMUNA": "Ancud",
     "Paso": 2,
-    "ESTADO": "Transición desde el lunes 21 de diciembre a las 05:00 am"
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Andacollo",
@@ -96,8 +96,8 @@
   },
   {
     "COMUNA": "Calbuco",
-    "Paso": 1,
-    "ESTADO": "Cuarentena"
+    "Paso": 2,
+    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
   },
   {
     "COMUNA": "Caldera",
@@ -157,7 +157,7 @@
   {
     "COMUNA": "Castro",
     "Paso": 3,
-    "ESTADO": "Preparación a partir del lunes 21 de diciembre a las 5:00 hrs."
+    "ESTADO": "Preparación"
   },
   {
     "COMUNA": "Catemu",
@@ -181,8 +181,8 @@
   },
   {
     "COMUNA": "Chaitén",
-    "Paso": 3,
-    "ESTADO": "Preparación"
+    "Paso": 4,
+    "ESTADO": "Apertura Inicial desde el miércoles 23 de diciembre a las 05:00 hrs."
   },
   {
     "COMUNA": "Chanco",
@@ -226,13 +226,13 @@
   },
   {
     "COMUNA": "Cholchol",
-    "Paso": 1,
-    "ESTADO": "Cuarentena"
+    "Paso": 2,
+    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
   },
   {
     "COMUNA": "Chonchi",
     "Paso": 2,
-    "ESTADO": "Transición a partir del lunes 21 de diciembre a las 5:00 hrs."
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Cisnes",
@@ -292,7 +292,7 @@
   {
     "COMUNA": "Collipulli",
     "Paso": 3,
-    "ESTADO": "Preparación a partir del lunes 21 de diciembre a las 5:00 hrs."
+    "ESTADO": "Preparación"
   },
   {
     "COMUNA": "Coltauco",
@@ -306,8 +306,8 @@
   },
   {
     "COMUNA": "Con Con",
-    "Paso": 3,
-    "ESTADO": "Preparación"
+    "Paso": 2,
+    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
   },
   {
     "COMUNA": "Concepción",
@@ -382,7 +382,7 @@
   {
     "COMUNA": "Curarrehue",
     "Paso": 2,
-    "ESTADO": "Cuarentena"
+    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
   },
   {
     "COMUNA": "Curepto",
@@ -457,7 +457,7 @@
   {
     "COMUNA": "Freire",
     "Paso": 2,
-    "ESTADO": "Transición a partir del lunes 21 de diciembre a las 5:00 hrs."
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Freirina",
@@ -476,13 +476,13 @@
   },
   {
     "COMUNA": "Futaleufú",
-    "Paso": 3,
-    "ESTADO": "Preparación"
+    "Paso": 4,
+    "ESTADO": "Apertura Inicial desde el miércoles 23 de diciembre a las 05:00 hrs."
   },
   {
     "COMUNA": "Futrono",
     "Paso": 3,
-    "ESTADO": "Preparación a partir del lunes 21 de diciembre a las 5:00 hrs."
+    "ESTADO": "Preparación"
   },
   {
     "COMUNA": "Galvarino",
@@ -516,8 +516,8 @@
   },
   {
     "COMUNA": "Hualaihué",
-    "Paso": 3,
-    "ESTADO": "Preparación a partir del lunes 21 de diciembre a las 5:00 hrs."
+    "Paso": 4,
+    "ESTADO": "Apertura Inicial desde el miércoles 23 de diciembre a las 05:00 hrs."
   },
   {
     "COMUNA": "Hualañé",
@@ -562,7 +562,7 @@
   {
     "COMUNA": "Iquique",
     "Paso": 3,
-    "ESTADO": "Preparación a partir del lunes 21 de diciembre a las 5:00 hrs."
+    "ESTADO": "Preparación"
   },
   {
     "COMUNA": "Isla de Maipo",
@@ -637,7 +637,7 @@
   {
     "COMUNA": "Lago Ranco",
     "Paso": 3,
-    "ESTADO": "Preparación a partir del lunes 21 de diciembre a las 5:00 hrs."
+    "ESTADO": "Preparación"
   },
   {
     "COMUNA": "Lago Verde",
@@ -776,8 +776,8 @@
   },
   {
     "COMUNA": "Los Sauces",
-    "Paso": 1,
-    "ESTADO": "Cuarentena"
+    "Paso": 2,
+    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
   },
   {
     "COMUNA": "Los Vilos",
@@ -841,13 +841,13 @@
   },
   {
     "COMUNA": "Maule",
-    "Paso": 3,
-    "ESTADO": "Preparación"
+    "Paso": 2,
+    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
   },
   {
     "COMUNA": "Maullín",
-    "Paso": 1,
-    "ESTADO": "Cuarentena"
+    "Paso": 2,
+    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
   },
   {
     "COMUNA": "Mejillones",
@@ -866,8 +866,8 @@
   },
   {
     "COMUNA": "Molina",
-    "Paso": 3,
-    "ESTADO": "Preparación"
+    "Paso": 2,
+    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
   },
   {
     "COMUNA": "Monte Patria",
@@ -921,8 +921,8 @@
   },
   {
     "COMUNA": "Nueva Imperial",
-    "Paso": 3,
-    "ESTADO": "Preparación"
+    "Paso": 2,
+    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
   },
   {
     "COMUNA": "Ñiquén",
@@ -972,7 +972,7 @@
   {
     "COMUNA": "Padre Las Casas",
     "Paso": 2,
-    "ESTADO": "Transición a partir del lunes 21 de diciembre a las 5:00 hrs."
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Paihuano",
@@ -981,8 +981,8 @@
   },
   {
     "COMUNA": "Paillaco",
-    "Paso": 1,
-    "ESTADO": "Cuarentena"
+    "Paso": 2,
+    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
   },
   {
     "COMUNA": "Paine",
@@ -991,8 +991,8 @@
   },
   {
     "COMUNA": "Palena",
-    "Paso": 3,
-    "ESTADO": "Preparación"
+    "Paso": 4,
+    "ESTADO": "Apertura Inicial desde el miércoles 23 de diciembre a las 05:00 hrs."
   },
   {
     "COMUNA": "Palmilla",
@@ -1002,7 +1002,7 @@
   {
     "COMUNA": "Panguipulli",
     "Paso": 3,
-    "ESTADO": "Preparación a partir del lunes 21 de diciembre a las 5:00 hrs."
+    "ESTADO": "Preparación"
   },
   {
     "COMUNA": "Panquehue",
@@ -1111,8 +1111,8 @@
   },
   {
     "COMUNA": "Pitrufquén",
-    "Paso": 3,
-    "ESTADO": "Preparación"
+    "Paso": 2,
+    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
   },
   {
     "COMUNA": "Placilla",
@@ -1197,7 +1197,7 @@
   {
     "COMUNA": "Puqueldón",
     "Paso": 3,
-    "ESTADO": "Preparación a partir del lunes 21 de diciembre a las 5:00 hrs."
+    "ESTADO": "Preparación"
   },
   {
     "COMUNA": "Purén",
@@ -1227,7 +1227,7 @@
   {
     "COMUNA": "Queilén",
     "Paso": 2,
-    "ESTADO": "Transición a partir del lunes 21 de diciembre a las 5:00 hrs."
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Quellón",
@@ -1237,7 +1237,7 @@
   {
     "COMUNA": "Quemchi",
     "Paso": 2,
-    "ESTADO": "Transición a partir del lunes 21 de diciembre a las 5:00 hrs."
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Quilaco",
@@ -1346,8 +1346,8 @@
   },
   {
     "COMUNA": "Río Bueno",
-    "Paso": 1,
-    "ESTADO": "Cuarentena"
+    "Paso": 2,
+    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
   },
   {
     "COMUNA": "Río Claro",
@@ -1366,8 +1366,8 @@
   },
   {
     "COMUNA": "Río Negro",
-    "Paso": 2,
-    "ESTADO": "Transición"
+    "Paso": 3,
+    "ESTADO": "Preparación"
   },
   {
     "COMUNA": "Río Verde",
@@ -1506,8 +1506,8 @@
   },
   {
     "COMUNA": "San Rosendo",
-    "Paso": 3,
-    "ESTADO": "Preparación"
+    "Paso": 2,
+    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
   },
   {
     "COMUNA": "San Vicente",
@@ -1527,7 +1527,7 @@
   {
     "COMUNA": "Santa Juana",
     "Paso": 3,
-    "ESTADO": "Preparación a partir del lunes 21 de diciembre a las 5:00 hrs."
+    "ESTADO": "Preparación"
   },
   {
     "COMUNA": "Santa Maria",
@@ -1556,8 +1556,8 @@
   },
   {
     "COMUNA": "Talca",
-    "Paso": 3,
-    "ESTADO": "Preparación"
+    "Paso": 2,
+    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
   },
   {
     "COMUNA": "Talcahuano",
@@ -1572,7 +1572,7 @@
   {
     "COMUNA": "Temuco",
     "Paso": 2,
-    "ESTADO": "Transición a partir del lunes 21 de diciembre a las 5:00 hrs."
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Teno",
@@ -1612,7 +1612,7 @@
   {
     "COMUNA": "Toltén",
     "Paso": 3,
-    "ESTADO": "Preparación a partir del lunes 21 de diciembre a las 5:00 hrs."
+    "ESTADO": "Preparación"
   },
   {
     "COMUNA": "Tomé",
@@ -1646,8 +1646,8 @@
   },
   {
     "COMUNA": "Valdivia",
-    "Paso": 1,
-    "ESTADO": "Cuarentena"
+    "Paso": 2,
+    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
   },
   {
     "COMUNA": "Vallenar",
@@ -1656,8 +1656,8 @@
   },
   {
     "COMUNA": "Valparaiso",
-    "Paso": 3,
-    "ESTADO": "Preparación"
+    "Paso": 2,
+    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
   },
   {
     "COMUNA": "Vichuquén",
@@ -1691,13 +1691,13 @@
   },
   {
     "COMUNA": "Villarrica",
-    "Paso": 3,
-    "ESTADO": "Preparación"
+    "Paso": 2,
+    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
   },
   {
     "COMUNA": "Viña del Mar",
-    "Paso": 3,
-    "ESTADO": "Preparación"
+    "Paso": 2,
+    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
   },
   {
     "COMUNA": "Vitacura",
