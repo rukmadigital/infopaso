@@ -46,8 +46,8 @@
   },
   {
     "COMUNA": "Antofagasta",
-    "Paso": 3,
-    "ESTADO": "Preparación"
+    "Paso": 2,
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Antuco",
@@ -97,7 +97,7 @@
   {
     "COMUNA": "Calbuco",
     "Paso": 2,
-    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Caldera",
@@ -182,7 +182,7 @@
   {
     "COMUNA": "Chaitén",
     "Paso": 4,
-    "ESTADO": "Apertura Inicial desde el miércoles 23 de diciembre a las 05:00 hrs."
+    "ESTADO": "Apertura Inicial"
   },
   {
     "COMUNA": "Chanco",
@@ -206,8 +206,8 @@
   },
   {
     "COMUNA": "Chile Chico",
-    "Paso": 4,
-    "ESTADO": "Apertura Inicial"
+    "Paso": 2,
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Chillán",
@@ -227,7 +227,7 @@
   {
     "COMUNA": "Cholchol",
     "Paso": 2,
-    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Chonchi",
@@ -251,8 +251,8 @@
   },
   {
     "COMUNA": "Cochrane",
-    "Paso": 4,
-    "ESTADO": "Apertura Inicial"
+    "Paso": 2,
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Codegua",
@@ -307,7 +307,7 @@
   {
     "COMUNA": "Con Con",
     "Paso": 2,
-    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Concepción",
@@ -382,7 +382,7 @@
   {
     "COMUNA": "Curarrehue",
     "Paso": 2,
-    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Curepto",
@@ -391,8 +391,8 @@
   },
   {
     "COMUNA": "Curicó",
-    "Paso": 2,
-    "ESTADO": "Transición"
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
   },
   {
     "COMUNA": "Dalcahue",
@@ -477,7 +477,7 @@
   {
     "COMUNA": "Futaleufú",
     "Paso": 4,
-    "ESTADO": "Apertura Inicial desde el miércoles 23 de diciembre a las 05:00 hrs."
+    "ESTADO": "Apertura Inicial ."
   },
   {
     "COMUNA": "Futrono",
@@ -517,7 +517,7 @@
   {
     "COMUNA": "Hualaihué",
     "Paso": 4,
-    "ESTADO": "Apertura Inicial desde el miércoles 23 de diciembre a las 05:00 hrs."
+    "ESTADO": "Apertura Inicial"
   },
   {
     "COMUNA": "Hualañé",
@@ -777,7 +777,7 @@
   {
     "COMUNA": "Los Sauces",
     "Paso": 2,
-    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Los Vilos",
@@ -842,12 +842,12 @@
   {
     "COMUNA": "Maule",
     "Paso": 2,
-    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Maullín",
     "Paso": 2,
-    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Mejillones",
@@ -867,7 +867,7 @@
   {
     "COMUNA": "Molina",
     "Paso": 2,
-    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Monte Patria",
@@ -922,7 +922,7 @@
   {
     "COMUNA": "Nueva Imperial",
     "Paso": 2,
-    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Ñiquén",
@@ -982,7 +982,7 @@
   {
     "COMUNA": "Paillaco",
     "Paso": 2,
-    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Paine",
@@ -992,7 +992,7 @@
   {
     "COMUNA": "Palena",
     "Paso": 4,
-    "ESTADO": "Apertura Inicial desde el miércoles 23 de diciembre a las 05:00 hrs."
+    "ESTADO": "Apertura Inicial"
   },
   {
     "COMUNA": "Palmilla",
@@ -1112,7 +1112,7 @@
   {
     "COMUNA": "Pitrufquén",
     "Paso": 2,
-    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Placilla",
@@ -1347,7 +1347,7 @@
   {
     "COMUNA": "Río Bueno",
     "Paso": 2,
-    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Río Claro",
@@ -1507,7 +1507,7 @@
   {
     "COMUNA": "San Rosendo",
     "Paso": 2,
-    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "San Vicente",
@@ -1557,7 +1557,7 @@
   {
     "COMUNA": "Talca",
     "Paso": 2,
-    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Talcahuano",
@@ -1647,7 +1647,7 @@
   {
     "COMUNA": "Valdivia",
     "Paso": 2,
-    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Vallenar",
@@ -1657,7 +1657,7 @@
   {
     "COMUNA": "Valparaiso",
     "Paso": 2,
-    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Vichuquén",
@@ -1692,12 +1692,12 @@
   {
     "COMUNA": "Villarrica",
     "Paso": 2,
-    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Viña del Mar",
     "Paso": 2,
-    "ESTADO": "Transición desde el miércoles 23 de diciembre a las 05:00 hrs."
+    "ESTADO": "Transición"
   },
   {
     "COMUNA": "Vitacura",
